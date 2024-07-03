@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on NetworkX</title>
+    <link>https://networkx.org/news/</link>
+    <description>Recent content in News on NetworkX</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://networkx.org/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NetworkX 3.3 was released!</title>
+      <link>https://networkx.org/news/new-theme/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://networkx.org/news/new-theme/</guid>
+      <description> NetworkX release notes. You can install the latest version with pip and conda. pip install networkx==3.3 conda install networkx=3.3 </description>
+    </item>
+  </channel>
+</rss>

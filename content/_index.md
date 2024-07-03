@@ -6,26 +6,46 @@ title:
 
 [[item]]
 type = 'card'
-title = 'Documented'
+title = 'Graph Data Structures'
 body = '''
-The theme is documented at https://theme.scientific-python.org.
+Data structures for graphs, digraphs, and multigraphs built
+on top of Python dictionaries.
 '''
 
 [[item]]
 type = 'card'
-title = 'Reusable'
+title = 'Highly Versatile'
 body = '''
-The theme is being used by
-[scientific-python.org](https://github.com/scientific-python/scientific-python.org),
-[numpy.org](https://github.com/numpy/numpy.org), and
-[scipy.org](https://github.com/scipy/scipy.org).
+ Nodes can be "anything" (e.g., text, images, XML records) and Edges can hold arbitrary data (e.g., weights, time-series).
 '''
 
 [[item]]
 type = 'card'
-title = 'Community Maintained'
+title = 'Foundational Graph Algorithms'
 body = '''
-The theme is maintained by the [Theme Team](/about/).
+It also provides many standard graph algorithms and analysis measures.
+'''
+
+
+[[item]]
+type = 'card'
+title = 'User Friendly'
+body = '''
+NetworkX provides an intutive API and has no dependencies. The codebase is pure Python and is easy to follow along.
+'''
+
+[[item]]
+type = 'card'
+title = 'Performant'
+body = '''
+NetworkX scales well for a decent set of algorithms, for everything else it provides a unique backend system which interfaces with [CuGraph](https://github.com/rapidsai/cugraph), [GraphBLAS](https://github.com/python-graphblas/graphblas-algorithms), [joblib](https://github.com/networkx/nx-parallel).
+'''
+
+[[item]]
+type = 'card'
+title = 'Open Source'
+body = '''
+NetworkX is distributed under a [3-clause BSD license](https://raw.githubusercontent.com/networkx/networkx/main/LICENSE.txt) and is developed and maintained by a vibrant community.
 '''
 
 {{< /grid >}}
